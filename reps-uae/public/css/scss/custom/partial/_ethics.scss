@@ -1,0 +1,166 @@
+.ethicsHeaderGreen {
+    border: 1px solid #cccccc;
+    background: #FFFFFF;
+    color: #32A543;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px 0;
+    min-width: 20%;
+    font-family: "OpenSans-Regular";
+}
+
+.ethicsHeaderBlack {
+    border: 1px solid #cccccc;
+    background: #FFFFFF;
+    color: #333333;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px 0;
+    min-width: 20%;
+    font-family: "OpenSans-Regular";
+}
+
+.ethicsHeaderRed {
+    color: #EB1921;
+    border: 1px solid #cccccc;
+    background: #FFFFFF;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px 0;
+    min-width: 20%;
+    font-family: "OpenSans-Regular";
+}
+
+.ethicsHeaderGrey {
+    color:#7F8084;
+    border: 1px solid #cccccc;
+    background: #FFFFFF;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px 0;
+    min-width: 20%;
+    font-family: "OpenSans-Regular";
+}
+
+.ethicsHeaderOrange {
+    color: #32A543;
+    border: 1px solid #cccccc;
+    background: #FFFFFF;
+    padding: 20px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px 0;
+    min-width: 20%;
+   font-family: "OpenSans-Regular";
+}
+
+.background-grey {
+    background:#F2F2F2;
+    background: #F2F2F2;
+    padding: 30px 0;
+    
+    p.special {
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+}
+
+.download {
+    background:#FFFFFF;
+    padding:10px 0;
+    font-family: "OpenSans-Bold";
+    border: 2px outset #E2E2E2;
+    a,a:hover {
+        margin: 0 0 0 15px;
+        img {
+            display:inline-block;
+        }
+        span {
+            display:inline-block;
+            color:#3EA94E;
+        }
+    }
+    span {
+        display:inline-block;
+        color:#333333;
+    }
+}
+
+@media(max-width: 800px) {
+    .download {
+        display:none;
+    }
+}
+
+.ethicsParagraphGreen {
+    background: #32A543;
+    color: #FFF;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 60px;
+    font-family: "OpenSans-Regular";
+}
+
+.ethicsParagraphBlack {
+    background: #333333;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 85px;
+    font-family: "OpenSans-Regular";
+}
+
+.ethicsParagraphRed {
+    background:#EB1921;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 60px;
+    font-family: "OpenSans-Regular";
+}
+
+.ethicsParagraphGrey {
+    background:#7F8084;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 80px;
+    font-family: "OpenSans-Regular";
+}
+
+@media(max-width: 1143px) {
+    .ethicsParagraphGrey {
+        height:100px;
+    }
+}
+
+
+.ethicsParagraphOrange {
+    background: #32A543;
+    color: #FFFFFF;
+    padding: 7px 15px;
+    border-radius: 10px;
+    font-size: 14px;
+    height: 105px;
+    font-family: "OpenSans-Regular";
+}
+
+@media(max-width: 1143px) {
+    .ethicsParagraphOrange {
+        height:125px;
+    }
+}

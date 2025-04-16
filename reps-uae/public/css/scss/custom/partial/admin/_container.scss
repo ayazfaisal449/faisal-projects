@@ -1,0 +1,82 @@
+
+body.admin {
+    .container.admin {
+        #content {
+            background: #F2F2F2;
+            min-height:600px;
+        }
+    }
+}
+
+.adminWelcome {
+    background:#F2F2F2;
+    border-top: 5px solid #32a543;
+    a.logo {
+        display: block;
+        margin-bottom:1px;
+    }
+}
+
+.adminHeader {
+    background:image-url("admin/introBackground.png") top left no-repeat;
+    height:78px;
+    margin: 25px 0;
+    
+    h6 {    
+         padding:15px 10px;
+         font-size:14px;
+         display:inline-block;
+         
+    }
+    
+    a,a:hover {
+        display:inline-block;
+        float:right;
+        padding: 25px 20px;
+        color:#535353;
+    }
+}
+
+h5.noRecords {
+    padding: 15px 15px 25px 15px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.addForm {
+    padding:20px;
+    
+    label {
+        .upload {
+            background:image-url('upload.png');
+            width: 482px;
+            height: 42px;
+        }
+    }
+    
+    input[type=file] {
+        display:none;
+    }
+}
+
+.form-wrapper {
+    background:#FFFFFF;
+    padding:20px;
+    
+    label {
+        margin:10px 0;
+        display:inline-block;
+    }
+    span.errors {
+        color:red;
+        display:inline-block;
+    }
+}
+
+.btn-background {
+    background:image-url("admin/btn.png") top left no-repeat;
+    width: 155px;
+    height: 43px;
+    border:none;
+    font-size: 15px;
+}

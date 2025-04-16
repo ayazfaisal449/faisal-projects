@@ -1,0 +1,213 @@
+
+.benefits-wrapper {
+    margin:25px 0;
+    
+    img {
+        display: block;
+        margin: 0 auto;
+        position:relative;
+    }
+}
+
+.redHeader {
+    background:#E00000;
+    width:100%;
+    height:76px;
+    font-size:20px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    color:#FFFFFF;
+    padding:20px 0;
+    text-align:center;
+    position:relative;
+    top: -17px;
+    z-index: -1;
+    margin: 0;
+}
+
+.red-left-triangle {
+    background:image-url('benefits/red-left.png');
+    width:18px;
+    height:18px;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+    top: -17px;
+}
+
+.red-right-triangle {
+    background:image-url('benefits/red-right.png'); 
+    width:18px;
+    height:18px;
+    position:relative;
+    display: inline-block;
+    left: 338px;
+    top: -17px;
+}
+
+.orangeHeader {
+    background:#FA470C;
+    width:100%;
+    height:76px;
+    font-size:20px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    color:#FFFFFF;
+    padding:20px 0;
+    text-align:center;
+    position:relative;
+    top: -17px;
+    z-index: -1;
+    margin: 0;
+}
+
+.orange-left-triangle {
+    background:image-url('benefits/orange-left.png');
+    width:18px;
+    height:18px;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+    top: -17px;
+}
+
+.orange-right-triangle {
+    background:image-url('benefits/orange-right.png'); 
+    width:18px;
+    height:18px;
+    position:relative;
+    display: inline-block;
+    left: 340px;
+    top: -17px;
+}
+
+.blueHeader {
+    background:#3D4E9C;
+    width:100%;
+    height:76px;
+    font-size:20px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    color:#FFFFFF;
+    padding:20px 0;
+    text-align:center;
+    position:relative;
+    top: -17px;
+    z-index: -1;
+    margin: 0;
+}
+
+.blue-left-triangle {
+    background:image-url('benefits/blue-left.png');
+    width:18px;
+    height:18px;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+    top: -17px;
+}
+
+.blue-right-triangle {
+    background:image-url('benefits/blue-right.png'); 
+    width:18px;
+    height:18px;
+    position:relative;
+    display: inline-block;
+    left: 340px;
+    top: -17px;
+}
+
+.greenHeader {
+    background: #135525;
+    width: 100%;
+    height: 76px;
+    font-size: 16px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    color: #FFFFFF;
+    padding: 15px 5px;
+    text-align: center;
+    position: relative;
+    top: -17px;
+    z-index: -1;
+    margin: 0;
+    font-family: "OpenSans-Bold";
+}
+
+.green-left-triangle {
+    background:image-url('benefits/green-left.png');
+    width:18px;
+    height:18px;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+    top: -17px;
+}
+
+.green-right-triangle {
+    background:image-url('benefits/green-right.png'); 
+    width:18px;
+    height:18px;
+    position:relative;
+    display: inline-block;
+    left: 340px;
+    top: -17px;
+}
+
+.lightGreenHeader {
+    background: #94C11F;
+    width: 100%;
+    height: 76px;
+    font-size: 16px;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    color: #FFFFFF;
+    padding: 15px 5px;
+    text-align: center;
+    position: relative;
+    top: -17px;
+    z-index: -1;
+    margin: 0;
+    font-family: "OpenSans-Bold";
+}
+
+.light-green-left-triangle {
+    background:image-url('benefits/light-green-left.png');
+    width:18px;
+    height:18px;
+    position: relative;
+    left: 0px;
+    display: inline-block;
+    top: -17px;
+}
+
+.light-green-right-triangle {
+    background:image-url('benefits/light-green-right.png'); 
+    width:18px;
+    height:18px;
+    position:relative;
+    display: inline-block;
+    left: 338px;
+    top: -17px;
+}
+
+.content {
+    position: relative;
+    top: -44px;
+    left: 0px;
+    background: #F2F2F2;
+    padding: 35px;
+    z-index: -3;
+    width: 91%;
+    margin: 0 auto;
+    p {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 1213px)
+{
+    .green-right-triangle, .green-left-triangle, .light-green-right-triangle, .light-green-left-triangle, .blue-left-triangle,.blue-right-triangle,.orange-left-triangle,.orange-right-triangle,.red-left-triangle,.red-right-triangle {
+        display:none;
+    }
+}

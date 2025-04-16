@@ -1,0 +1,41 @@
+h1.color-green {
+    color:#32A543;
+    font-family: HelveticaNeueLTCom-Th;
+}
+p.color-black {
+    color:#333333;
+}
+
+.greenText {
+    color: #32A543;
+}
+
+.redText {
+    color: red;
+}
+
+@include font-face("BradleyHandITCTTBold", font-files("../../fonts/BradleyHandITCTTBold/BradleyHandITCTTBold.eot","../../fonts/BradleyHandITCTTBold/BradleyHandITCTTBold.woff", "../../fonts/BradleyHandITCTTBold/BradleyHandITCTTBold.ttf", "../../fonts/BradleyHandITCTTBold/BradleyHandITCTTBold.otf"));
+
+@include font-face("HelveticaLTStd-BoldCond", font-files("../../fonts/HelveticaLTStd-BoldCond/HelveticaLTStd-BoldCond.eot","../../fonts/HelveticaLTStd-BoldCond/HelveticaLTStd-BoldCond.woff", "../../fonts/HelveticaLTStd-BoldCond/HelveticaLTStd-BoldCond.ttf", "../../fonts/HelveticaLTStd-BoldCond/HelveticaLTStd-BoldCond.otf"));
+
+@include font-face("OpenSans-Bold", font-files("../../fonts/OpenSans-Bold/OpenSans-Bold.eot","../../fonts/OpenSans-Bold/OpenSans-Bold.woff", "../../fonts/OpenSans-Bold/OpenSans-Bold.ttf", "../../fonts/OpenSans-Bold/OpenSans-Bold.otf"));
+
+@include font-face("OpenSans-Regular", font-files("../../fonts/OpenSans-Regular/OpenSans-Regular.eot","../../fonts/OpenSans-Regular/OpenSans-Regular.woff", "../../fonts/OpenSans-Regular/OpenSans-Regular.ttf", "../../fonts/OpenSans-Regular/OpenSans-Regular.otf"));
+
+@include font-face("HelveticaNeueLTCom-Bd", font-files("../../fonts/HelveticaNeueLTCom-Bd/HelveticaNeueLTCom-Bd.eot","../../fonts/HelveticaNeueLTCom-Bd/HelveticaNeueLTCom-Bd.woff", "../../fonts/HelveticaNeueLTCom-Bd/HelveticaNeueLTCom-Bd.ttf", "../../fonts/HelveticaNeueLTCom-Bd/HelveticaNeueLTCom-Bd.otf"));
+
+@include font-face("HelveticaNeueLTCom-Th", font-files("../../fonts/HelveticaNeueLTCom-Th/HelveticaNeueLTCom-Th.eot","../../fonts/HelveticaNeueLTCom-Th/HelveticaNeueLTCom-Th.woff", "../../fonts/HelveticaNeueLTCom-Th/HelveticaNeueLTCom-Th.ttf", "../../fonts/HelveticaNeueLTCom-Th/HelveticaNeueLTCom-Th.otf"));
+
+p {
+    font-family: "OpenSans-Regular";
+    font-size: 14px;
+}
+
+span.filename {
+	margin-bottom:3px;
+	display:block;
+	p {
+		margin:0;
+		font-size: 12px
+	}
+}

@@ -1,0 +1,23 @@
+#termsConditionsSubtitle {
+    margin-bottom: 3rem;
+    color:#32A543;
+    font-family: "OpenSans-Bold";
+    font-size:20px;
+    @media (max-width: 640px) {
+        & {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.termsConditionsDesc {
+    margin-bottom: 3rem;
+    color:#32A543;
+    font-family: "OpenSans-Bold";
+    font-size:14px;
+    @media (max-width: 640px) {
+        & {
+            margin-bottom: 2rem;
+        }
+    }
+}

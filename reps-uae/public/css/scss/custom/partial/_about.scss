@@ -1,0 +1,57 @@
+#aboutDownloads {
+    padding: 0.5rem;
+    background: #f2f2f2;
+    
+    p {
+         margin: 10px 0;
+    }
+}
+
+.aboutDownload {
+    width: 50%;
+    font-weight: bold;
+    &.last {
+        margin-bottom: 0;
+    }
+    @media (max-width: 699px) {
+        & {
+            width: 100%;
+        }
+    }
+}
+
+#workWith {
+    font-size: 1.25rem;
+    font-family: "OpenSans-Bold";
+    margin: 40px 0;
+}
+
+#aboutList {
+    margin: 0;
+    list-style-type: none;  
+    li {
+        margin-bottom: 2rem;
+        padding-left: 45px;
+        height: 50px;
+        width: 50%;
+        float: left;
+        background: image-url('list-circle.png') no-repeat 0 0;
+    }
+    @media (max-width: 669px) {
+        & {
+            li {
+                margin-bottom: 1rem;
+                width: 100%;
+            }
+        }
+    }
+}
+
+#aboutEnd {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background: #f2f2f2;
+    p:last-child {
+        margin: 0;
+    }
+}

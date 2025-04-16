@@ -1,0 +1,101 @@
+
+.searchBtn {
+    margin:30px 0; 
+    float:right;
+}
+
+.searchHeader {
+    
+    margin: 0 0 15px 0;
+    h3 {
+        color: #32A443;
+        font-family:"OpenSans-Bold";
+        font-size:16px;
+    }
+    p {
+        font-size:14px;
+        font-family:"OpenSans-Regular";
+        color:#333333;
+    }
+}
+
+.searchContent {
+    background:#F2F2F2;
+    padding:15px;
+    border-radius:15px;
+    
+    .wrapper {
+        float:left;
+        width:50%;
+        padding:10px;
+        
+        img {
+           float:left;
+        }
+        
+        @media(max-width: 485px) {
+            img {
+                width:30%;
+            }
+        }
+        
+        .searchTrainerResults {
+            display:inline-block;
+            float:left;
+            color:#333333;
+            margin-left: 20px;
+            h5 {
+                color: #32A443;
+                font-family:"OpenSans-Bold";
+                font-size:14px;
+                margin-bottom:30px;
+            }
+            span {
+                display:block;
+                font-family:"OpenSans-Regular";
+                font-size:14px;
+                margin:5px 0;
+                b {
+                    font-family:"OpenSans-Bold";
+                }
+            }
+            
+            @media(max-width: 485px) {
+                h5, span {
+                   font-size: 12px;
+                }
+            }
+        }
+        
+        @media(max-width: 485px) {
+            .searchTrainerResults {
+                margin:0 5px;
+            }
+        }
+    }
+    
+    @media(max-width: 900px) {
+        .wrapper {
+            float:none;
+            display:block;
+            width:auto;
+             margin:0;
+             padding:0;
+        }
+    }
+    
+}
+
+@media(max-width: 945px)
+{
+    .searchContent {
+        margin-bottom:15px;
+    }
+}
+
+@media(max-width: 900px) {
+    .searchContent {
+        background: none;
+    }
+    
+}

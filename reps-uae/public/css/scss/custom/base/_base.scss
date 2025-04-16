@@ -1,0 +1,50 @@
+a.btn {
+    background:image-url("btn-sprites.png") top left no-repeat;
+    width:180px; 
+    height:40px; 
+    background-position:-10px -60px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0;
+    color: #FFFFFF;
+    font-family: "HelveticaNeueLTCom-Bd";
+    font-size: 14px;
+}
+
+a.btn:hover {
+    background-position:-10px -10px;
+}
+
+.submitBtn {
+    background:image-url("btn-sprites.png") top left no-repeat;
+    width:180px; 
+    height:40px; 
+    background-position:-10px -60px;
+    color: #FFFFFF;
+    border:none;
+}
+
+.submitBtn:hover {
+    background-position:-10px -10px;
+}
+
+.border-bottom {
+    border-bottom:1px solid #CCCCCC;
+}
+
+h1 {
+    color:#32A443;
+}
+
+a.subFooter-btn {
+    color: #FFF;
+    font-family: OpenSans-Bold;
+    font-size: 15px;
+    border: 1px solid #FFFFFF;
+    padding: 10px 5px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}

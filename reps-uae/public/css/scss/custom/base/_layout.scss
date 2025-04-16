@@ -1,0 +1,50 @@
+.border-right-white {
+    border-right:1px solid #FFFFFF;
+}
+
+.greenWrapperFooter {
+    background: #32A543;
+    color: #FFFFFF;
+    padding: 5px 0;
+}
+
+@media(max-width: 945px) {
+    .greenWrapperFooter {
+        display:none;
+    }
+}
+
+.swril.cpdProviders {
+    height:420px;
+    margin:0;
+} 
+
+@media(max-width: 945px) {
+    .swril.cpdProviders {
+        display:none;
+    }
+}
+
+.width-80 {
+    width:80%;
+}
+
+.padding-bottom-10 {
+    padding-bottom:10px;
+}
+
+.margin-top-20 {
+    margin-top:20px;
+}
+
+.float-right {
+    float:right;
+}
+
+.margin-top-bottom-20 {
+    margin:20px 0;
+}
+
+.margin-bottom-10 {
+    margin-bottom:10px;
+}

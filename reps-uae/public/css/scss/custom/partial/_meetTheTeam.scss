@@ -1,0 +1,94 @@
+#teamImage {
+    padding: 1.5rem 0;
+    border-bottom: dotted black 1px;
+    img {
+        margin-right: 1rem;
+        float: left;
+    }
+    p {
+        margin-bottom: 0;
+        float: left;
+        font-family: "OpenSans-Regular";
+        font-size:14px;
+        b { 
+            font-family: "OpenSans-Bold";
+            font-size:14px;
+            color:#32A543;
+        }
+    }
+    @media (max-width: 789px) {
+        & {
+            padding: 1.5rem 1rem;
+            text-align: center;
+            
+            img {
+                margin: 0 auto;
+                float: none;
+            }
+
+            p {
+                margin: 0 auto;
+                float: none;
+            }
+        }
+    }
+}
+
+.teamMember {
+    padding: 1rem 0;
+    float: left;
+    border-sizing: border-box;
+    border-bottom: dotted black 1px;
+    .teamMemberPic {
+        width: 25%;
+        float: left;
+        text-align: center;
+        p {
+            margin: 0 auto;
+            padding: .7rem 0;
+            width: 178px;
+            height: 66px;
+            position: relative;
+            top: -2rem;
+            text-align: center;
+            font-size: .8rem;
+            color: #fff;
+            background: image-url('team-member-name-bg.png') no-repeat 0 0;
+            box-sizing: border-box;
+            font-family: "OpenSans-Regular";
+            font-size:14px;
+            &.three {
+                padding: .15rem 0;
+            }
+            b {
+                font-family: "OpenSans-Bold";
+                font-size:14px;
+            }
+        }
+        @media (max-width: 789px) {
+            & {
+                width: 100%;
+            }
+        }
+    }
+    .teamMemberDesc {
+        margin: 0;
+        padding: 1rem;
+        width: 75%;
+        float: left;
+        border-sizing: border-box;
+        background: #eee;
+        @include border-radius(5px,5px);
+        @media (max-width: 789px) {
+            & {
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 789px) {
+        & {
+            padding: 1rem;
+        }
+    }
+}

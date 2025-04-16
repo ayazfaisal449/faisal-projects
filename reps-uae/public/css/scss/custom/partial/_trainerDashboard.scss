@@ -1,0 +1,55 @@
+.trainerDashboardWrapper {
+    height:180px;
+    background:#F2F2F2;
+    text-align:center;
+    padding:10px;
+    margin:20px 0;
+    display:block;
+    color:#32A443;
+    font-weight:bold;
+    border:1px solid #CCCCCC;
+    border-radius:5px;
+
+    &:hover {
+        background:#E2E2E2;
+        color:#32A443;
+    }
+    img {
+        display:block;
+        margin: 40px auto 15px auto;
+    }
+}
+
+
+.yourCertifications {
+    margin: 20px 0;
+    h2 {
+        background: #F2F2F2;
+        padding: 5px 30px;
+        color: #32A443;
+        margin: 0;
+        border-radius: 35px;
+    }
+    
+    img {
+        margin:5px;
+    }
+    
+    .wrapper,h3 {
+        padding: 15px 25px;
+    }
+    
+    h6 {
+        font-weight: bold;
+    }
+}
+
+.dashboardPara {    
+    display: inline-block;
+    float:left
+}
+a.trainerLogout {
+    float:right;
+    font-family: "OpenSans-Bold";
+    color: #32A443;
+}

@@ -1,0 +1,54 @@
+.updateStatusRequest {
+	.statusUpgradeBtn {
+		display: block;
+		background:image-url("admin/request_bg.png") repeat-x;
+		padding: 5px;
+		border: 1px solid #ccc; 
+		color:#454C55;
+		font-size:14px;
+		margin-left: 20px;
+	}
+	
+	.levelRegUpgradeBtn {
+		display: block;
+		background:image-url("admin/request_bg.png") repeat-x;
+		padding: 5px;
+		border: 1px solid #ccc;
+		color:#454C55;
+		font-size:14px;
+		margin-left: 20px;
+	}
+	
+	.noticesDiv {
+		background:image-url("admin/notices.png") repeat;
+		margin-right: 20px;
+		padding: 15px;
+		border-radius: 10px;
+		color: #fff;
+		
+		h3 {
+			color:#fff;
+			font-size: 21px;
+			padding-bottom: 7px;
+			border-bottom: 1px solid #fff;
+			margin-bottom: 15px;
+			
+			.noticeIcon {
+				background:image-url("admin/notice_icon.png") no-repeat;
+				display:block;
+				width:20px;
+				height:20px;
+				float: left;
+				margin-top: 4px;
+				margin-right:10px;
+			}
+		}
+		
+		p {
+			margin-bottom:5px;
+		}
+	}
+}
+
+
+

@@ -1,0 +1,70 @@
+{
+  "name": "laravel/laravel",
+  "description": "The Laravel Framework.",
+  "keywords": [
+    "framework",
+    "laravel"
+  ],
+  "license": "MIT",
+  "type": "project",
+  "require": {
+    "php": ">=7.4",
+    "laravel/framework": "^10.0",
+    "happydemon/txt": "1.0.*",
+    "mailchimp/marketing": "^3.0",
+    "phpoffice/phpspreadsheet": "^1.0",
+    "intervention/image": "^2.7",
+    "2checkout/2checkout-php": "0.3.*",
+    "phpseclib/phpseclib": "^2.0",
+    "patchwork/utf8": "~1.2",
+    "laravelcollective/html": "^6.0",
+    "cartalyst/sentry": "dev-feature/laravel-5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0",
+    "phpspec/phpspec": "^7.0"
+  },
+  "autoload": {
+    "classmap": [
+      "database",
+      "app/Commands",
+      "app/models",
+      "database/seeds",
+      "tests/TestCase.php",
+      "app/services",
+      "app/validator",
+      "app/helpers"
+    ],
+    "psr-4": {
+      "App\\": "app/",
+      "Services\\": "app/services/",
+      "Cranium\\": "app/Cranium/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/TestCase.php"
+    ]
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "php artisan clear-compiled",
+      "php artisan optimize"
+    ],
+    "post-update-cmd": [
+      "php artisan clear-compiled",
+      "php artisan optimize"
+    ],
+    "post-create-project-cmd": [
+      "php -r \"copy('.env.example', '.env');\"",
+      "php artisan key:generate"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist",
+    "allow-plugins": {
+      "composer/installers": true,
+      "kylekatarnls/update-helper": true
+    }
+  }
+}

@@ -1,0 +1,66 @@
+.approvedTrainingCourses {
+    margin:20px 0;
+    a {
+        display:block;
+        color:#000000;
+        border:1px solid #CDCDCD;
+        border-radius:5px;
+        padding:15px;
+        font-weight: bold;
+        font-size: 14px;  
+    }
+      
+    a:hover {
+        background:#32A543;
+        color:#FFFFFF;
+        text-decoration:none;
+    }
+    
+    p {
+        background: #F4F4F4;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 14px;
+        font-family: "OpenSans-Regular";
+        b {
+            font-family: "OpenSans-Bold";
+        }
+    }
+}
+
+.entryQualifications {
+    margin:20px 0;
+    table {
+        border:none;
+        border-spacing:0;
+        padding:0;
+        width:100%;
+        thead {
+            background:#F4F4F4;
+            font-size:20px;
+            padding:10px 0;
+             td {
+                width:40%;
+                font-size: 15px;
+            }
+            td:first-child {
+                width:60%;
+                font-size: 20px;
+            }
+        }
+        tbody {
+            td {
+                border:1px solid #CCCCCC; 
+                 width:40%;
+            }
+            td:first-child {
+                border-right:none;
+                 width:60%;
+            }
+        }
+    }
+}
+
+.cpdProviders {
+    margin:20px 0;
+}

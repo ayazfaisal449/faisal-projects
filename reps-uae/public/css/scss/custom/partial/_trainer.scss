@@ -1,0 +1,221 @@
+
+.trainerSubTitle {
+    margin:15px 0;
+    h3 {
+        color: #32A443;
+        font-size: 16px;
+        font-weight: bold;
+        border-bottom: 1px solid #CCCCCC;
+        padding: 0 0 10px 0;
+    }
+}
+
+.formNumberWrapper {
+    padding:15px 0;
+    border-top:1px solid #CCCCCC;
+    border-bottom:1px solid #CCCCCC;
+    img {
+        margin: 0 5px 0 0;
+    }
+}
+
+form.registration {
+
+    .trainerSubTitle {
+        .errorWrapper {
+            border-bottom: 1px solid #CCCCCC;
+            
+            h3 {
+                display:inline-block;
+                border:none;
+            }
+            span.error {
+                background:none;
+                color:#D2232A;
+                display:inline-block;
+            }
+        }
+        
+    }
+    
+    .qualificationCertificate.trainerSubTitle {
+        margin: 0 0 15px 0;
+    }
+
+    input[type=text],input[type=email],input[type=password],select, textarea {
+        border-radius:20px;
+    }
+    
+    label {
+        padding: 5px 17px;
+        
+        .upload {
+            background:image-url('upload.png'); 
+            width: 482px;
+            height: 42px;
+        }
+    }
+    
+    input[type=file] {
+        display:none;
+    }
+    
+    .regLevelCheckBox {
+        border-bottom: 1px solid #CCCCCC;
+        margin: 5px 0;
+        
+        input[type=checkbox], input[type=radio] {
+            width: 20px;
+            height: 20px;
+            padding: 0;
+            margin: 5px 10px;
+            display: inline-block;
+            float: right;
+        }
+        
+        label {
+            display:inline-block;
+        }
+    }
+    
+    .continueBtnWrapper {   
+        margin:20px 0;
+        padding:15px 0;
+        .row {
+            border-top:1px solid #CCCCCC;
+            
+            .submitBtn {
+                margin: 20px 0;
+            }
+        }
+    }
+    
+    .addMoreLink {
+        margin:10px 0;
+        padding:15px 0;
+        
+        .row {
+            border-top:2px dashed #CCCCCC;
+            .columns {
+                padding:15px 0;
+                
+                a,a:hover {
+                    display: inline-block;
+                    
+                    img {
+                        margin: 0 10px;
+                        display:inline;
+                    }
+                    span {
+                        color:#777777;
+                        display:inline;
+                    }
+                }
+            }
+        }
+    }
+    
+    .moreQualification {
+       .qualification {
+            position:relative;
+            
+            .remove {
+                color: #32A443;
+                font-weight: bold;
+                font-size: 30px;
+                position: absolute;
+                top: 0;
+                right: 100px;
+                cursor:pointer;
+            }
+            
+        }
+    }
+    
+    .inputWrapper {
+        .label {
+            background:none;
+            label {
+                display:inline-block;
+            }
+            .error {
+                display:inline-block;
+                span.required, span.error {
+                    color: #D2232A;
+                    margin: 10px 20px;
+                    display:inline-block;
+                }
+                span.error {
+                    margin: 10px 0;
+                    background: none;
+                    padding: 0;
+                }
+            }
+        }
+    }
+    
+    i {
+        font-size: 12px;
+        display: inline-block;
+        margin: 5px 0;
+    }
+    
+    .photograph {
+        display:block;
+        margin:0 auto;
+    }
+    
+    .currentCv {
+        h6 {
+            color: #32A443;
+            font-weight: bold;
+        }
+        a,a:hover {
+            color:#222222;
+            font-size: 14px;
+        }
+    }
+    
+    .forgotWrapper {
+        margin: 15px 0;
+        
+        .forgotPass,img {
+            margin:0 5px;
+        }
+        
+        .forgotPass {
+            display: inline-block;
+            color: #777777;
+            font-family: OpenSans-Bold;
+        }
+    }
+    
+    .continueBtnWrapper.trainerLogin {
+        margin:0;
+        padding:0;
+    }
+    
+}
+
+form.searchTrainer {
+
+    padding:15px 0;
+    margin: 5px 0 40px 0;
+    border-bottom:1px solid #CCCCCC;
+
+    label {
+        padding: 5px 17px;
+    }
+    
+    input[type=text],input[type=email],input[type=password],select, textarea {
+        border-radius:20px;
+    }
+    
+    .searchBtn {
+    }
+    
+}
+
+.loginWrapper {
+    background: #F7F7F7;
+}

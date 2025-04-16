@@ -1,0 +1,60 @@
+.employerSubtitle {
+    margin-bottom: 1rem;
+    color:#32A543;
+    font-family: "OpenSans-Bold";
+    font-size:20px;
+}
+#employerIntro {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background: #f2f2f2;
+    font-family: "OpenSans-Regular";
+    font-size:14px;
+    b {
+        font-family: "OpenSans-Bold";
+    }
+}
+.employerItem {
+    margin-bottom: 2rem;
+}
+.employerImageWrapper {
+    width: 25%;
+    float: left;
+    text-align: center;
+    img {
+        margin: 0 auto;
+    }
+}
+.employerText {
+    width: 75%;
+    float: left;
+}
+#employerPrinciples {
+    margin-bottom: 2rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: "OpenSans-Bold";
+}
+#employerList {
+    margin: 0;
+    width: 70%;
+    list-style-type: none;
+    li {
+        margin-left: 12%;
+        margin-bottom: 2rem;
+        padding-left: 45px;
+        width: 100%;
+        min-height: 30px;
+        background: image-url('list-circle.png') no-repeat 0 0;
+        font-family: "OpenSans-Regular";
+        font-size:14px;
+    }
+    @media (max-width: 669px) {
+        & {
+            li {
+                margin-bottom: 1rem;
+                width: 100%;
+            }
+        }
+    }
+}

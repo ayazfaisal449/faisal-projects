@@ -1,0 +1,70 @@
+.title-div{
+	margin-top: 30px;
+	height: 80px;
+	border-left: 3px solid $green;
+	padding-left: 20px;
+	border-bottom: 1px solid $border;
+	margin-bottom: 20px;
+	h4{
+		color: #32A543;
+	    font-weight: 700;
+	    font-size: 25px;
+	    margin-top: 10px
+	}
+	p{
+		.activeMe{
+			color: $green
+		}
+		a:hover{
+			color: $green;
+		}
+		i{
+			padding: 0 5px;
+			color: $green;
+			position: relative;
+   			top: 5px;
+
+		}
+	}
+
+}
+.content-div{
+	padding: 20px;
+	border: 1px solid $border;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	h4{
+		color: #707070;
+	    font-weight: 700;
+	    font-size: 25px;
+	    margin-bottom: 20px;
+	}
+	h5{
+		color: #707070;
+	    font-weight: 700;
+	    font-size: 20px;
+	    margin-bottom: 20px;
+	}
+}
+.know-more{
+	padding: 20px;
+	border: 1px solid $border;
+	margin-top: 30px;
+	h4{
+		text-align: center;
+		color: #707070;
+		font-size: 20px;
+	}
+	a{
+		text-align: center;
+		font-size: 15px;
+		display: block;
+		padding: 5px 0;
+	}
+	a:hover{
+		color: $w;
+		background-color: $green;
+		
+
+	}
+}

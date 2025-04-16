@@ -1,0 +1,153 @@
+
+.component {
+	width:100%;
+}
+
+.galleryEdit {
+    padding:0 15px;
+    .tableHeader {
+        
+    }
+    
+    .tableRows {
+        
+    }
+}
+
+.tableHeader {
+	ul {
+		list-style:none;
+		background:#32A543;
+		margin:0;
+		width:100%;
+		li {
+			display: inline-block;
+			width: 25%;
+			padding: 5px 8px;
+			color: #FFFFFF;
+			font-size: 17px;
+		}
+		li:first-child {
+			width:70%;
+		}
+	}
+}
+
+.tableRows {
+	background:#fff;
+	ul {
+		list-style:none;
+		margin:0; 
+		padding:0;
+		li {
+			display:block;
+			width:25%;
+			padding: 6px 10px;
+			border-bottom:1px solid #EDEDED;
+			width:100%;
+			
+			a {
+				width:70%;
+				color:#000000;
+				display:inline-block;
+			}
+			
+			.action {
+				width:25%;
+				display: inline-block;
+				
+				a {
+					display:inline;
+					.edit {
+						 background:image-url("admin/edit.png") no-repeat;
+						 width:19px; 
+						 height:20px; 
+						 display: inline-block;
+						 margin: 0 10px;
+					}
+					
+					.delete {
+						background:image-url("admin/delete.png") no-repeat;
+						width:28px; 
+						height:18px; 
+						display: inline-block;
+						margin: 0 10px;
+					}
+					
+				}
+			}
+		}
+	}
+}
+
+.trainerTable {
+	border:0;
+	thead{
+		background: #32A543;
+		margin: 0;
+		width: 100%;
+		border:none;
+		th {
+			color:#fff;
+		}
+	}
+	tbody {
+		tr:nth-of-type(even) {
+			background-color: transparent !important;
+		}
+		td {
+			border-bottom:1px solid #EDEDED;
+			a .edit {
+				background:image-url('admin/edit.png') no-repeat;
+				width: 20px;
+				height: 20px;
+				display: inline-block;
+				margin: 0 10px;
+			}
+			a .delete {
+				background:image-url('admin/delete.png') no-repeat;
+				width: 19px;
+				height: 18px;
+				display: inline-block;
+				margin: 0 10px;
+			}
+		}
+	
+	}
+    
+}
+
+.paginator {
+    text-align: center;
+    ul.pagination {
+        margin:10px 0;
+        list-style:none;
+        display:inline-block;
+        height:auto;
+        li {
+            color:#FFFFFF;
+            background:#32A543;
+            height:inherit;
+            font-size:14px;
+            margin: 3px;
+            float:none;
+            display:inline-block;
+            border-radius: 5px;
+            a,a:hover {
+                padding:10px 15px;
+                display:block;
+                color:#FFFFFF;
+                background:none;
+            }
+        }
+        li.active {
+            padding:10px 15px;
+        }
+         li.disabled {
+            padding:10px 15px;
+        }
+        li:hover {
+           opacity:0.7;
+        }
+    }
+}

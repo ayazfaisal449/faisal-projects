@@ -1,0 +1,110 @@
+
+footer {
+    .contactWrapper {
+        background:#3B3B3B;
+        padding:10px 0;
+        color:#FFFFFF;
+        h2 {
+            color:#FFFFFF;
+            border-bottom:1px solid #FFFFFF;
+            padding:0px 0 10px 0;
+            font-family: "HelveticaNeueLTCom-Th";
+            margin: 0 0 20px 0;
+        }
+        h6,h5 {
+            color:#FFFFFF;
+            font-size: 14px;
+        }
+        h5 {
+            font-family: "OpenSans-Bold";
+        }
+        h6 {
+            font-family: "OpenSans-Regular";
+            margin: 0 0 20px 0;
+        }
+        .contact {
+            margin: 25px 0;
+            
+            .address {
+                background:image-url("footer-icons.png") top left no-repeat;
+                width:40px; 
+                height:40px; 
+                background-position:-10px -110px;
+                display:inline-block;
+            }
+            .telephone {
+                background:image-url("footer-icons.png") top left no-repeat;
+                width:40px; 
+                height:40px; 
+                background-position:-10px -60px;
+                display:inline-block;
+            }
+            .email {
+                background:image-url("footer-icons.png") top left no-repeat;
+                width:40px; 
+                height:40px; 
+                background-position:-10px -110px;
+                display:inline-block;
+            }
+            span {
+                display: inline-block;
+                width: 70%;
+                vertical-align: top;
+                margin: 0 10px;
+                line-height: 1.6em;
+                font-family: "OpenSans-Regular";
+                font-size:14px;
+            }
+        }
+        
+        a {
+            color: #FFF;
+            display: block;
+            padding: 10px 0;
+            border: 1px solid #FFF;
+            border-radius: 5px;
+            text-align: center;
+            margin: 20px 0;
+            font-family: "HelveticaNeueLTCom-Bd";
+            font-size: 14px;
+        }
+        
+        .contactDetails {
+            margin: 0 20px;
+        }
+
+    }
+   
+    @media(max-width: 945px) {
+        .contactWrapper {
+            display:none
+        }
+        
+    }
+    
+    .copywrite {
+        background: #222222;
+        color: #FFFFFF;
+        font-size: 14px;
+        padding: 20px 0;
+        a,a:hover {
+            color:#2F8C3D;
+            font-weight:bold;
+        }
+    }
+}
+
+form#contactForm {
+    
+    input[type=text] {
+        border-radius: 15px;
+    }
+    textarea {
+        border-radius: 15px;
+        height:initial;
+    }
+    input[type=submit] {
+        font-family: "HelveticaNeueLTCom-Bd";
+        font-size: 14px;
+    }
+}

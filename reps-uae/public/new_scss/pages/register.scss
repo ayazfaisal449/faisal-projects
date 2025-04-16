@@ -1,0 +1,22 @@
+.corner-fix{
+	padding: 20px;
+	border-radius: 20px 0 20px 0;
+	background-color: rgba(225,0,0,0.3);
+	.info-important{
+		font-size: 25px;
+		margin: 0;
+		margin-top: 10px;
+		padding: 0;
+		color: red; 
+	}
+	.red-me{
+		color: red;
+	}
+	h3{
+		font-size: 18px;
+		color: red;
+		i{
+			margin-right: 10px;
+		}
+	}
+}

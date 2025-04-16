@@ -1,0 +1,177 @@
+.new-header{
+	height: 120px;
+	border-bottom: 5px solid $green; 
+	border-top: 5px solid $green; 
+	
+	overflow: hidden;
+	.logo{
+		float: left;
+		padding: 20px 0;
+		img{
+			width: 140px;
+		}
+	}  
+	.nav-header{
+		margin: 0;
+		padding:0;
+		list-style:none;
+		@extend .clearfix;
+		padding-left: 2%;
+		float: left;
+		li{
+			float: left;
+			height: 120px;
+			width: 115px;  
+			a{
+				text-align: center;
+				width: 100%;
+				height: 100%;
+				vertical-align: center;
+				display: block;
+				border-right: 1px solid $border;
+				border-left: 1px solid $border;
+				color: $b;
+				position: relative;
+				font-family: 'Raleway', sans-serif;
+				font-weight: 700;
+				font-size: 17px;
+				padding: 30px  10px 0 10px;
+				i{
+					position: absolute;
+				    top: 64%;
+				    left: 0;
+				    right:0;
+				    display: none;
+				}
+				&:first-child{
+					border-left:0;
+				}
+				&:hover{
+					background-color: rgba(50,165,67,.1);
+					color: $green;
+					i{
+						display: block;
+					}
+
+				}
+
+			}
+			.single-liner{
+				padding: 40px  10px 0 10px;
+			}
+		}
+	} 
+	.right-nav{
+		float: right;
+		a{
+			float: left;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			font-size: 15px;
+			color: $b;
+			&:hover{
+				color: $green;
+			}
+		}
+		.arabic-text{
+			margin-left: 50px;
+			margin-top: 45px;
+			padding-right: 10px;
+			margin-right: 10px;
+			border-right: 1px solid $border;
+			color: $b;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+			img{
+				margin-right: 5px;
+			}
+			&:hover{
+				color: $green;
+			}
+		}
+		.sign-text{
+			margin-top: 45px;
+			padding-right: 10px;
+			margin-right: 10px;
+			border-right: 1px solid $border;
+			font-family: 'Raleway', sans-serif;
+			font-weight: 700;
+		}
+		.fb-text{
+			height: 24px;
+			width: 24px;
+			border-radius: 100%;
+			border: 1px solid $b;
+			text-align: center;
+		    font-size: 12px;
+		    line-height: 24px;
+		    margin-top: 45px;
+		    font-family: 'Raleway', sans-serif;
+		    font-weight: 700;
+		    margin-right: 10px;
+		    &:last-child{
+		    	margin-right: 0;
+		    }
+		    &:hover{
+		    	border-color: $green;
+		    }
+		}
+	}    
+}
+.small-nav{
+	height: 70px;
+	width: 100%;
+	padding: 20px 0;
+	background: rgba(135,131,130,1);
+	background: -moz-linear-gradient(top, rgba(135,131,130,1) 0%, rgba(31,28,28,0.82) 51%, rgba(31,28,28,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(135,131,130,1)), color-stop(51%, rgba(31,28,28,0.82)), color-stop(100%, rgba(31,28,28,1)));
+	background: -webkit-linear-gradient(top, rgba(135,131,130,1) 0%, rgba(31,28,28,0.82) 51%, rgba(31,28,28,1) 100%);
+	background: -o-linear-gradient(top, rgba(135,131,130,1) 0%, rgba(31,28,28,0.82) 51%, rgba(31,28,28,1) 100%);
+	background: -ms-linear-gradient(top, rgba(135,131,130,1) 0%, rgba(31,28,28,0.82) 51%, rgba(31,28,28,1) 100%);
+	background: linear-gradient(to bottom, rgba(135,131,130,1) 0%, rgba(31,28,28,0.82) 51%, rgba(31,28,28,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#878382', endColorstr='#1f1c1c', GradientType=0 );
+	a{
+		text-align:center;
+		color: $w;
+		display: block;
+		&:hover{
+			color: $green;
+		}
+	}
+	
+}
+
+
+
+
+.subnav{
+	margin: 0;
+	padding: 0;
+	margin-left: 30px;
+	li{
+		float: left;
+		width: 150px;
+		list-style: none;
+		border-right: 1px solid $w;
+		&:last-child{
+			border-right: 0;   
+		}
+	}
+	a{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
